@@ -1,0 +1,25 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.constant-animation {
+    animation-duration: 5s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}

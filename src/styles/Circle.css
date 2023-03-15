@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: green;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.animated {*/
+/*    animation-duration: 2s;*/
+/*    animation-name: move;*/
+/*}*/
+
+/*@keyframes move {*/
+/*    from {*/
+/*        transform: translateX(0%);*/
+/*    }*/
+/*    to {*/
+/*        transform: translateX(50%);*/
+/*    }*/
+/*}*/

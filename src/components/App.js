@@ -1,29 +1,11 @@
-import React, {useState} from 'react';
-import Cards from './Cards';
-import Search from './Search';
-import Character from "./Character";
+import * as React from 'react';
+import Main from "./main";
 
-const App = () =>{
-    const [term, setTerm] = useState('');
-    const [data, setData] = useState([]);
+export default function App() {
 
     return (
-        <div className="ui container segment">
-            <Search
-                term = {term}
-                setTerm = {setTerm}
-                setData = {setData}
-            />
-            <Cards
-                data = {data}
-            />
-
-            {/*<Character*/}
-            {/*    term = {term}*/}
-            {/*/>*/}
+        <div>
+            Hello world
         </div>
-
     )
 }
-
-export default App;
